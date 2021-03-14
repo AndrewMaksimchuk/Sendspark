@@ -1,0 +1,24 @@
+.block-4 {
+  width: 100%;
+  height: 314px;
+  margin-top: 96px;
+  padding: 68px 96px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  background-color: #100b2b;
+  color: #fef5e4;
+  &__column {
+    text-align: center;
+  }
+  &__column-title {
+    margin-bottom: 8px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    line-height: 44px;
+  }
+  &__row {
+    margin-top: 4px;
+    line-height: 32px;
+  }
+}

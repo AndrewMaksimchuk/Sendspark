@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: inter;
+  src: url(inter-regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(roboto-regular.ttf);
+  font-weight: 400;
+}
+
+body {
+  font-family: "inter", "Roboto", Arial, Helvetica, sans-serif;
+  background-color: #fef5e4;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.content {
+  padding-top: 96px;
+  padding-bottom: 126px;
+}
+
+@import "../components/info-line/info-line.scss";
+@import "../components/header/header.scss";
+@import "../components/get-started/get-started.scss";
+@import "../components/companies/companies.scss";
+@import "../components/block-1/block-1.scss";
+@import "../components/block-2/block-2.scss";
+@import "../components/block-3/block-3.scss";
+@import "../components/block-4/block-4.scss";
+@import "../components/block-5/block-5.scss";
+@import "../components/block-6/block-6.scss";
+@import "../components/block-7/block-7.scss";
+@import "../components/footer/footer.scss";

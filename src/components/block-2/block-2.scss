@@ -1,0 +1,30 @@
+.block-2 {
+  width: 100%;
+  height: 373px;
+  margin-top: 128px;
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  background-color: #100b2b;
+  &__title {
+    color: #fef5e4;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  &__small-description {
+    margin-top: 18px;
+    color: #655b6e;
+    font-size: 17px;
+    line-height: 32px;
+  }
+  &__logo {
+    width: 168px;
+    height: 28px;
+    margin-top: 17px;
+  }
+  &__image {
+    width: 441px;
+    height: 309px;
+  }
+}

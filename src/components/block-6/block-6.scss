@@ -1,0 +1,33 @@
+.block-6 {
+  &__row {
+    width: 100%;
+    height: 372px;
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.row {
+  &__text {
+    width: 496px;
+    padding-top: 106px;
+  }
+  &__image {
+    width: 496px;
+    height: 372px;
+  }
+  &__text-title {
+    padding-bottom: 41px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #100b2b;
+  }
+  &__text-description {
+    font-size: 17px;
+    line-height: 32px;
+    color: #655b6e;
+  }
+}
